@@ -1,0 +1,324 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2016, 10:48:58 PM
+    Author     : Maciej
+*/
+
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bg-1 { 
+    background-color: #334d4d; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: 	#40334d; /* Green */
+    color: #ffffff;
+}
+
+.bg-3 { 
+    background-color: #4d3333; /* Green */
+    color: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.books1, .books2, .books3, .books4, .books5 {
+    
+    font-size: xx-large;
+}
+
+.portrait-size{
+    width: 25%;
+    
+    padding: 1%;
+    
+}
+
+.zlecenia{
+    width: 50%;
+    padding: 1%;
+}
+
+.img-size{
+    width: 70%;
+}
+
+.container-fluid{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.basic{
+    padding: 2%;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #577566;
+    color: #ffffff;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.custom-font-color{
+    color: #ffffff;
+}
+
+.navbar-default {
+  background-color: #4f9f78;
+  border-color: #3e9687;
+}
+.navbar-default .navbar-brand {
+  color: #f2feff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #02ffbc;
+}
+.navbar-default .navbar-text {
+  color: #f2feff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f2feff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #02ffbc;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #4f9f78;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #f2feff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #02ffbc;
+  background-color: #3e9687;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #3e9687;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #02ffbc;
+  background-color: #3e9687;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #02ffbc;
+  background-color: #3e9687;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #02ffbc;
+  background-color: #3e9687;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3e9687;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3e9687;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f2feff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f2feff;
+}
+.navbar-default .navbar-link {
+  color: #f2feff;
+}
+.navbar-default .navbar-link:hover {
+  color: #02ffbc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f2feff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #02ffbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #02ffbc;
+    background-color: #3e9687;
+  }
+}
+
+.legenda{
+    color: wheat;
+}
+
+.form-font-color{
+    color: black;
+}
+
+.fieldset-padding{
+    margin: 3%;
+}
+
+.osobie{
+    margin: 1%;
+}
+
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.gal-container{
+	padding: 12px;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-item .box{
+	height: 350px;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item a:focus{
+	outline: none;
+}
+.gal-item a:after{
+	content:"\e003";
+	font-family: 'Glyphicons Halflings';
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 3px;
+	left: 3px;
+	top: 3px;
+	bottom: 3px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+	opacity: 1;
+}
+.modal-open .gal-container .modal{
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+	padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+	outline: none;
+}
+.modal-open .gal-item button.close span{
+	position: relative;
+	top: -3px;
+	font-weight: lighter;
+	text-shadow:none;
+}
+.gal-container .modal-dialogue{
+	width: 80%;
+}
+.gal-container .description{
+	position: relative;
+	height: 40px;
+	top: -40px;
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: left;
+}
+.gal-container .description h4{
+	margin:0px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+@media (min-width: 768px) {
+.gal-container .modal-dialog {
+    width: 55%;
+    margin: 23%;
+}
+}
+@media (max-width: 768px) {
+    .gal-container .modal-content{
+        height:250px;
+    }
+}
+
+.myIframe {
+    max-width: 95%;
+}
+
+
+
